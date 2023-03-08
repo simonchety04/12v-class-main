@@ -1,11 +1,59 @@
-
-<!doctype html>
-<html>
+<!DOCTYPE html>
   <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{page.title}}</title>
+
+	<link rel="stylesheet" href="style.css">
+
+
+	
+	<style>
+		.grid-container {
+		  display: grid;
+		  column-gap: 10px;
+		}
+		.grid-container {
+		  display: grid;
+		  row-gap: 20px;
+		}
+
+		ul {
+		  list-style-type: none;
+		  margin:30;
+		  padding:20;
+		  overflow: hidden;
+		  background-color:#B0CFDE;
+		}
+
+		li {
+		  float:left;
+		}
+
+		li a {
+		  display: block;
+		  color:#080709;
+		  text-align: center;
+		  padding: 20px 50px;
+		  text-decoration: none;
+		}
+
+		li a:hover {
+		  background-color:#C9DFEC;
+		}
+
+		</style>
+		</head>
+		<body>
+		<ul><b><font-color=""> 
+	<li><a href="index.html">Начала страница</a></li>
+	<li><a href="1-5 място.html">1-5 място.html</a></li>
+	<li><a href="6-10 място.html">6-10 място.html</a></li>
+	<li><a href="World.html">забележителности.html</a></li>
+	<li><a href="https://www.travelnews.bg/bg/news/16330931388245/vizhte-koi-sa-100-te-nay-izvestni-gradove-v-sveta">Към сайта &#8594; Най-известните градове в света</a></li>
+	</ul></b>
+
+	
     {{ content }}
+   
   </body>
 </html>
